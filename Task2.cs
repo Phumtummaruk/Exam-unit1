@@ -1,84 +1,42 @@
 
-for (int i = 0; i < 3; i++)//go left
-{
-    Move();
-}
+moveForward(3);
 Turn();
 
-for (int i = 0; i < 2; i++) ; //go up
-{
-    Move();
-}
+moveForward(2);
 Turn();
 
-for (int i = 0; i < 5; i++) ; // go right
-{
-    Move();
-}
+moveForward(5);
 Turn();
 
-for (int i = 0; i < 4; i++) ; // go down
-{
-    Move();
-}
+moveForward(4);
 Turn();
 
-for (int i = 0; i < 7; i++) ; //go left
-{
-    Move();
-}
+moveForward(7);
 Turn();
 
-for (int i = 0; i < 6; i++) ; //go up
-{
-    Move();
-}
+moveForward(6);
 Turn();
 
-for (int i = 0; i < 9; i++) ; // go right
-{
-    Move();
-}
+moveForward(9);
 Turn();
 
-for (int i = 0; i < 8; i++) ; // go down
-{
-    Move();
-}
+moveForward(9);
 Turn();
 
-for (int i = 0; i < 11; i++) ; //go left
-{
-    Move();
-}
+moveForward(11);
 Turn();
 
-for (int i = 0; i < 10; i++) ; //go up
-{
-    Move();
-}
+moveForward(10);
 Turn();
 
-for (int i = 0; i < 13; i++) ; // go right
-{
-    Move();
-}
+moveForward(13);
 Turn();
 
-for (int i = 0; i < 12; i++) ; // go down
-{
-    Move();
-}
+moveForward(12);
 Turn();
 
-for (int i = 0; i < 15; i++) ; //go left
-{
-    Move();
-}
+moveForward(15);
 Turn();
 
-for (int i = 0; i < 13; i++) ; //go up
-{
-    Move();
-}
+moveForward(13);
 AtGoal();

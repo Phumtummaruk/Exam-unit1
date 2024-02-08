@@ -1,126 +1,51 @@
-for (int i = 0; i < 11; i++) ; //go left
-{
-    Move();
-}
+moveForward(11);
 Turn();
 
-for (int i = 0; i < 2; i++) ; //go up
-{
-    Move();
-}
+moveForward(2);
 Turn();
 
-for (int i = 0; i < 10; i++) ; //go right
-{
-    Move();
-}
-for (int i = 0; i < 3)
-{
-    Turn();
-}
+moveForward(10);
+turn270Deg();
 
-for (int i = 0; i < 2; i++) ; //go up
-{
-    Move();
-}
-for (int i = 0; i < 3)
-{
-    Turn();
-}
+moveForward(2);
+turn270Deg();
 
-for (int i = 0; i < 10; i++) ; //go left
-{
-    Move();
-}
+moveForward(10);
 Turn();
 
-for (int i = 0; i < 2; i++) ; //go up
-{
-    Move();
-}
+moveForward(2);
 Turn();
 
 
-for (int i = 0; i < 10; i++) ; //go right
-{
-    Move();
-}
-for (int i = 0; i < 3; i++)
-{
-    Turn();
-}
+moveForward(10);
+turn270Deg();
 
-for (int i = 0; i < 7; i++) ; //go up
-{
-    Move();
-}
-for (int i = 0; i < 3; i++)
-{
-    Turn();
-}
+moveForward(7);
+turn270Deg();
 
-for (int i = 0; i < 2; i++) ; //go left
-{
-    Move();
-}
-for (int i = 0; i < 3; i++)
-{
-    Turn();
-}
+moveForward(2);
+turn270Deg();
 
-for (int i = 0; i < 5; i++) ; //go down
-{
-    Move();
-}
+moveForward(5);
 Turn();
 
-for (int i = 0; i < 2; i++) ; //go left
-{
-    Move();
-}
+moveForward(2);
 Turn();
 
-for (int i = 0; i < 5; i++) ; //go up
-{
-    Move();
-}
-for (int i = 0; i < 3; i++)
-{
-    Turn();
-}
+moveForward(5);
+turn270Deg();
 
-for (int i = 0; i < 2; i++) ; //go left
-{
-    Move();
-}
-for (int i = 0; i < 3; i++)
-{
-    Turn();
-}
+moveForward(2);
+turn270Deg();
 
-for (int i = 0; i < 5; i++) ; //go down
-{
-    Move();
-}
+moveForward(5);
 Turn();
 
-for (int i = 0; i < 2; i++) ; //go left
-{
-    Move();
-}
+moveForward(2);
 Turn();
 
-for (int i = 0; i < 5; i++) ; //go up
-{
-    Move();
-}
-for (int i = 0; i < 3; i++)
-{
-    Turn();
-}
+moveForward(5);
+turn270Deg();
 
-for (int i = 0; i < 3; i++) ; //go left
-{
-    Move();
-}
+moveForward(3);
 AtGoal();

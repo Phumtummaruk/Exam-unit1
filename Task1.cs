@@ -1,109 +1,54 @@
+ีusing Program;
 
 
+moveForward(37);
 
-for (int i = 0; i < 37; i++) //start
-{
-    car.Move();
-}
+Turn();
 
-car.Turn();
+moveForward(2);
 
-for (int i = 0; i < 2; i++)
-{
-    car.Move();
-}
+Turn();
 
-car.Turn();
+moveForward(36);
 
-for (int i = 0; i < 36; i++) //12
-{
-    car.Move();
-}
+turn270Deg();
 
-for (int i = 0; i < 3; i++)
-{
-    car.Turn();
-}
+moveForward(2);
 
-for (int i = 0; i < 2; i++)
-{
-    car.Move();
-}
+turn270Deg();
 
-for (int i = 0; i < 3; i++)
-{
-    car.Turn();
-}
+moveForward(36);
 
-for (int i = 0; i < 36; i++) //10
-{
-    car.Move();
-}
+Turn();
 
-car.Turn();
+moveForward(2);
 
-for (int i = 0; i < 2; i++)
-{
-    car.Move();
-}
+turn270Deg();
 
-for (int i = 0; i < 36; i++) //8
-{
-    car.Move();
-}
+moveForward(36);
 
-for (int i = 0; i < 3; i++)
-{
-    car.Turn();
-}
+turn270Deg();
 
-for (int i = 0; i < 2; i++)
-{
-    car.Move();
-}
+moveForward(2);
 
-for (int i = 0; i < 3; i++)
-{
-    car.Turn();
-}
+turn270Deg();
 
-for (int i = 0; i < 36; i++) //6
-{
-    car.Move();
-}
+moveForward(36);
 
-car.Turn();
+Turn();
 
-for (int i = 0; i < 2; i++)
-{
-    car.Move();
-}
+moveForward(2);
 
-car.Turn();
+Turn();
 
-for (int i = 0; i < 36; i++) //4
-{
-    car.Move();
-}
+moveForward(36);
 
-for (int i = 0; i < 3; i++)
-{
-    car.Turn();
-}
+turn270Deg();
 
-for (int i = 0; i < 2; i++)
-{
-    car.Move();
-}
+moveForward(2);
 
-for (int i = 0; i < 3; i++)
-{
-    car.Turn();
-}
+turn270Deg();
 
-for (int i = 0; i < 37; i++) //4
-{
-    car.Move();
-}
+moveForward(37);
 
 AtGoal();

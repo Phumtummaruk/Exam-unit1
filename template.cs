@@ -17,48 +17,26 @@ Move();
 #region Basic functions
 // These functions are just her to make your intelisense work. 
 // They only have a conceptual function.
-int car = directionX + directionY
-int directionX = 0;
-int directionY = 0;
-
 
 void Move()
 {
-    directionX += 1;
-    directionY += 1;
+    // Moves the car 1 cell in the direction it is heading. 
 }
 
 void Turn()
 {
-    car = (car + 1) % 4;
-
+    // Turns the car 90 deg clockwise.
 }
 
 bool Peek()
 {
-    int moveX = directionX;
-    int moveY = directionY;
-    switch (car)
-    {
-        case 0:
-            moveY++;
-            break;
-        case 1:
-            moveX++;
-            break;
-        case 2:
-            moveY--;
-            break;
-        case 3:
-            moveX--;
-            break;
-    }
+    // Returns true if the next cell is open, otherwise false.
     return true; // Just a placeholder value. 
 }
 
 bool AtGoal()
 {
-    isAtGoal = IsCellGoal(directionX, directionY);
+    // Returns true if the current cell is the goal cell.
     return true; // just a placholder
 }
 
